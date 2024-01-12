@@ -8,13 +8,19 @@
 
 <body>
 
-    <h1 id="title">Modulo di sondaggio freeCodeCamp</h1>
-    <p id="description">Grazie per aver dedicato del tempo per aiutarci a migliorare la piattaforma</p>
+    <div class="container">
+        <h1 id="title">Modulo di sondaggio freeCodeCamp</h1>
+        <p id="description">Grazie per aver dedicato del tempo per aiutarci a migliorare la piattaforma</p>
+    </div>
+
 
     <form id="survey-form">
         <!-- input dati utente -->
-        <label for="name" id="name-label">Nome</label>
-        <input id="name" name="name" type="text" required placeholder="Inserisci il tuo nome">
+        <div class="container__form">   <!-- mettere tutti i form in singoli container per organizzarli meglio-->
+            <label for="name" id="name-label">Nome</label>
+            <input id="name" name="name" type="text" required placeholder="Inserisci il tuo nome">
+        </div>
+
 
         <label for="email" id="email-label">E-mail</label>
         <input id="email" name="email" type="email" required placeholder="Inserisci il tuo indirizzo email">
@@ -90,6 +96,7 @@
         <textarea placeholder="Inserisci qui il tuo commento..." rows="7"></textarea>
         <button id="submit" type="submit" value="submit">Invia</button>
     </form>
+
 
 </body>
 
