@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>survey-form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1 id="title">Modulo di sondaggio freeCodeCamp</h1>
+    <p id="description">Grazie per aver dedicato del tempo per aiutarci a migliorare la piattaforma</p>
+
+    <form id="survey-form">
+        <!-- input dati utente -->
+        <label for="name" id="name-label">Nome</label>
+        <input id="name" name="name" type="text" required placeholder="Inserisci il tuo nome">
+
+        <label for="email" id="email-label">E-mail</label>
+        <input id="email" name="email" type="email" required placeholder="Inserisci il tuo indirizzo email">
+
+        <label for="number" id="number-label">Età (opzionale)</label>
+        <input id="number" name="number" type="number" min="13" max="120" placeholder="Età">
+
+        <!-- select option -->
+        <label for="dropdpwn">quale opzione descrive meglio il tuo ruolo attuale?</label>
+        <select id="dropdown">
+            <option value="">Seleziona il ruolo attuale</option>
+            <option value="2">prova</option>
+            <option value="3">prova</option>
+        </select>
+
+        <!-- input radio e checkbox -->
+        <p>Consiglieresti freeCodeCamp a un amico?</p>
+
+        <input type="radio" value="decisamente" name="prova__modifica__quando__vuoi" class="inline" id="decisamente">
+        <label class="inline" for="decisamente">Decisamente</label>
+
+        <input type="radio" value="forse" name="prova__modifica__quando__vuoi" class="inline" id="forse">
+        <label class="inline" for="forse">Forse</label>
+
+        <input type="radio" value="non_è_sicuro" name="prova__modifica__quando__vuoi" class="inline" id="non_sicuro">
+        <label class="inline" for="non_sicuro">Non è sicuro</label>
+
+
+        <label for="dropdpwn2" id="label__dropdown2">Qual è la tua funzione preferita di freeCodeCamp?</label>
+        <select id="dropdown2">
+            <option value="">Seleziona un'opzione</option>
+            <option value="2">prova</option>
+            <option value="3">prova</option>
+        </select>
+
+        <!-- miglioramenti -->
+        <p>Cosa vorresti vedere migliorato? (Controlla tutte le applicazioni)</p>
+        <input type="checkbox" value="spunta__1" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Progetti front-end</label>
+
+        <input type="checkbox" value="spunta__2" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Progetti di back-end</label>
+
+        <input type="checkbox" value="spunta__2" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Visualizzazione dati</label>
+
+        <input type="checkbox" value="spunta__2" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Sfide</label>
+
+        <input type="checkbox" value="spunta__2" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Comunità open source</label>
+
+        <input type="checkbox" value="spunta__2" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Sale di aiuto di Gitter</label>
+
+        <input type="checkbox" value="spunta__2" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Video</label>
+
+        <input type="checkbox" value="spunta__2" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Incontri cittadini</label>
+
+        <input type="checkbox" value="spunta__2" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Wiki</label>
+
+        <input type="checkbox" value="spunta__2" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Forum</label>
+
+        <input type="checkbox" value="spunta__2" name="prova__modifica__quando__vuoi" class="inline">
+        <label for="" class="inline">Corsi aggiuntivi</label>
+
+        <!-- commenti in text area -->
+        <p>Eventuali commenti o suggerimenti?</p>
+        <textarea placeholder="Inserisci qui il tuo commento..." rows="7"></textarea>
+        <button id="submit" type="submit" value="submit">Invia</button>
+    </form>
+
+</body>
+
+</html>
