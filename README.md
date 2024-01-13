@@ -1,6 +1,6 @@
 # freeCodeCamp - Soluzione del form survey
 
-![Anteprima del design per la sfida di survey form](https://survey-form.freecodecamp.rocks/)
+[Anteprima del design per la sfida di survey form](https://survey-form.freecodecamp.rocks/)
 
 ## Panoramica
 
@@ -70,3 +70,4 @@ Ho imparato a usare un `forEach` per inserire i dati del form all'interno di un 
 - Github - [Smailen5](https://github.com/Smailen5)
 - Frontend Mentor - [@ Smailen5](https://www.frontendmentor.io/profile/Smailen5)
 - Linkedin - [Smailen Vargas](https://www.linkedin.com/in/smailen-vargas/)
+- freeCodeCamp - [Smailen Vargas](https://www.freecodecamp.org/italian/fcc54c189ea-4b3d-4832-afe3-868235883a3c)
