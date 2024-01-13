@@ -1,7 +1,6 @@
 
 console.log('Script caricato con successo!');
-alert(`Ciao, una volta inseriti i dati all'interno del form puoi vederli stampati in console,
-per utilizzare gli strumenti da sviluppatori premi F12 o click destro e seleziona ispeziona`)
+// alert(`Ciao, una volta inseriti i dati all'interno del form puoi vederli stampati in console, per utilizzare gli strumenti da sviluppatori premi F12 o click destro e seleziona ispeziona`)
 
 function handleSubmit(event) {
     console.log('Funzione handleSubmit chiamata!');
