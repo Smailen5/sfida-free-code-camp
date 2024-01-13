@@ -38,8 +38,8 @@ Ho voluto aggiungere anche la parte javascript per provare per la prima volta a 
 
 ### Links
 
-- [URL della soluzione](https://your-solution-url.com)
-- [URL del sito live](https://your-live-site-url.com)
+- [URL della soluzione](https://github.com/Smailen5/sfida-free-code-camp?tab=readme-ov-file)
+- [URL del sito live](https://smailen5.github.io/sfida-free-code-camp/)
 
 
 ## Dove trovare tutto
