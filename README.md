@@ -44,7 +44,7 @@ Ho voluto aggiungere anche la parte javascript per provare per la prima volta a 
 
 ## Dove trovare tutto
 
-Ho seguito il design di ![Anteprima del design per la sfida di survey form](https://survey-form.freecodecamp.rocks/), da cui ho preso l'immagine di background e la pallet di colori.
+Ho seguito il design di [Anteprima del design per la sfida di survey form](https://survey-form.freecodecamp.rocks/), da cui ho preso l'immagine di background e la pallet di colori.
 
 
 ## Il mio processo
